@@ -65,7 +65,7 @@ while True:
         if result and confidence > 80:
             money_lst.append(result)
             count += 1
-        elif result and confidence < 80:
+        elif result and confidence <= 80:
             money_lst.append("None")
             count += 1
 
